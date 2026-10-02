@@ -9,7 +9,7 @@ class product
      float price;
      int monthlysales[12];
 
-void aceept()
+void accept()
 {
   cout<<"Enter product ID:";
   cin>>productID;
@@ -44,7 +44,7 @@ float TotalBill()
 
 void Display()
 {
-  cout<<\nproduct Id : "
+  cout<<"\nproduct Id : "
 <<produtId;
   cout<<"\nproduct Name:"<<product_name;
 
@@ -57,7 +57,7 @@ void Display()
 
 int main()
 {
-   product P;
+   product p;
    p.aceept();
    p.Display();
 return 0;
