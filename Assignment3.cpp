@@ -45,7 +45,7 @@ float TotalBill()
 void Display()
 {
   cout<<"\nproduct Id : "
-<<produtID;
+<<productID;
   cout<<"\nproduct Name:"<<product_name;
 
   cout<<"\nprice of product:"<<price;
