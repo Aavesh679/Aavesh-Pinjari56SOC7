@@ -45,12 +45,12 @@ float TotalBill()
 void Display()
 {
   cout<<"\nproduct Id : "
-<<produtId;
+<<produtID;
   cout<<"\nproduct Name:"<<product_name;
 
   cout<<"\nprice of product:"<<price;
 
-  cout<<\nTotalquantity:"<<Totalquantity();
+  cout<<"\nTotalquantity:"<<Totalquantity();
   cout<<"\nTotal Bill:"<<TotalBill()<<endl;
 }
 };
@@ -58,7 +58,7 @@ void Display()
 int main()
 {
    product p;
-   p.aceept();
+   p.accept();
    p.Display();
 return 0;
 }
